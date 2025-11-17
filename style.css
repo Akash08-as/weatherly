@@ -1,0 +1,11 @@
+body {
+  font-family: Arial, sans-serif;
+  color:grey;
+  margin: 0; /* remove default spacing */
+  height: 100vh; /* full viewport height */
+  background-image: url("sunny.png"); /* path to your image */
+  background-size: cover; /* scale image to cover entire page */
+  background-position: center; /* center the image */
+  background-repeat: no-repeat; /* prevent tiling */
+}
+

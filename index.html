@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weatherly</title>
+</head>
+<body>
+  <div class="app-container">
+    <h2>🌤 SkyCast India</h2>
+    <label for="city-select" style="color:darkgray">Select a State Capital:</label>
+    <select id="city-select">
+      <option value="">--Choose a Capital--</option>
+      <option value="Agartala">Agartala (Tripura)</option>
+      <option value="Aizawl">Aizawl (Mizoram)</option>
+      <option value="Amaravati">Amaravati (Andhra Pradesh)</option>
+      <option value="Bengaluru">Bengaluru (Karnataka)</option>
+      <option value="Bhopal">Bhopal (Madhya Pradesh)</option>
+      <option value="Bhubaneswar">Bhubaneswar (Odisha)</option>
+      <option value="Chandigarh">Chandigarh (Punjab & Haryana)</option>
+      <option value="Chennai">Chennai (Tamil Nadu)</option>
+      <option value="Dehradun">Dehradun (Uttarakhand)</option>
+      <option value="Dispur">Dispur (Assam)</option>
+      <option value="Gangtok">Gangtok (Sikkim)</option>
+      <option value="Gandhinagar">Gandhinagar (Gujarat)</option>
+      <option value="Hyderabad">Hyderabad (Telangana)</option>
+      <option value="Imphal">Imphal (Manipur)</option>
+      <option value="Itanagar">Itanagar (Arunachal Pradesh)</option>
+      <option value="Jaipur">Jaipur (Rajasthan)</option>
+      <option value="Kohima">Kohima (Nagaland)</option>
+      <option value="Kolkata">Kolkata (West Bengal)</option>
+      <option value="Lucknow">Lucknow (Uttar Pradesh)</option>
+      <option value="Mumbai">Mumbai (Maharashtra)</option>
+      <option value="New Delhi">New Delhi (Delhi)</option>
+      <option value="Patna">Patna (Bihar)</option>
+      <option value="Raipur">Raipur (Chhattisgarh)</option>
+      <option value="Ranchi">Ranchi (Jharkhand)</option>
+      <option value="Shillong">Shillong (Meghalaya)</option>
+      <option value="Shimla">Shimla (Himachal Pradesh)</option>
+      <option value="Srinagar">Srinagar (Jammu and Kashmir)</option>
+      <option value="Thiruvananthapuram">Thiruvananthapuram (Kerala)</option>
+    </select>
+
+    <div id="loader" style="display:none;">Loading...</div>
+    <div id="error-container"></div>
+
+    <div id="weather-content" style="display:none;">
+      <div id="current-weather-container"></div>
+      <div id="forecast-container"></div>
+    </div>
+  </div>
+</body>
+</html>

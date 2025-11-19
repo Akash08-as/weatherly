@@ -16,13 +16,19 @@ It features a clean UI, dynamic backgrounds, and responsive design for an engagi
 
 ## 📂 Project Structure
 weatherly/
-│── index.html        # Main UI
-│── style.css         # Styling (glassmorphism, gradients, responsive blocks)
-│── weather.js        # Frontend logic
-│── weatherapi.js     # API integration script
-│── weather.php       # Backend validation & API key handling
-│── sunny.png         # Sample weather icon
-│── README.md         # Documentation
+├── index.html        # Main UI – entry point of the app
+├── style.css         # Styling (glassmorphism, gradients, responsive blocks)
+├── weather.js        # Frontend logic (dropdowns, dynamic backgrounds, UI updates)
+├── weatherapi.js     # API integration script (fetch weather data)
+├── weather.php       # Backend validation & API key handling
+├── README.md         # Documentation (intro, setup, usage)
+├── sunny.png         # Sample weather icon
+├── images/           # Central directory for all images/icons
+│   ├── 
+│   ├── cloudy.png    # (example) Cloudy weather icon
+│   ├── rainy.png     # (example) Rainy weather icon
+│   ├── backgrounds/  # Dynamic weather backgrounds
+│   └── logos/        # App
 
 
 ---

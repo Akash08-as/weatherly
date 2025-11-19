@@ -22,18 +22,18 @@ weatherly/
 ├── weatherapi.js     # API integration script (fetch weather data)
 ├── weather.php       # Backend validation & API key handling
 ├── README.md         # Documentation (intro, setup, usage)
-├── sunny.png         # Sample weather icon
+├── sunny.png         # Sample weather bg image
 ├── images/           # Central directory for all images/icons
-│   ├── 
-│   ├── cloudy.png    # (example) Cloudy weather icon
-│   ├── rainy.png     # (example) Rainy weather icon
-│   ├── backgrounds/  # Dynamic weather backgrounds
-│   └── logos/        # App
+│   ├── clear-sky.jpg # (example) Clear-sky weather bg image
+│   ├── cloudy.jpg    # (example) Cloudy weather bg image
+│   ├── rainy.jpg     # (example) Rainy weather bg image
+│   ├── haze.jpg      # (example) Haze weather bg image
+│   ├── snow.jpg      # (example) Snow weather bg image
+│   └── stormy.jpg    # (example) Stormy weather bg image
 
 
 ---
 
-## ⚙️ Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/Akash08-as/weatherly.git
